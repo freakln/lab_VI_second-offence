@@ -1,0 +1,22 @@
+name;url;stargazers;watchers;forkCount;isFork;commitComments;releases;createdAt;primaryLanguage
+mypy;https://github.com/python/mypy;{'totalCount': 8152};{'totalCount': 174};1247;False;{'totalCount': 116};{'totalCount': 0};2012-12-07T13:30:23Z;{'name': 'Python'}
+ballot-box;https://github.com/gvanrossum/ballot-box;{'totalCount': 8};{'totalCount': 2};4;False;{'totalCount': 0};{'totalCount': 0};2015-03-13T23:41:12Z;{'name': 'Python'}
+micropython;https://github.com/bbcmicrobit/micropython;{'totalCount': 444};{'totalCount': 68};248;False;{'totalCount': 25};{'totalCount': 2};2015-08-07T11:58:53Z;{'name': 'C'}
+cpython;https://github.com/fake-python/cpython;{'totalCount': 3};{'totalCount': 1};0;False;{'totalCount': 0};{'totalCount': 6};2015-11-05T12:07:26Z;{'name': 'Python'}
+make-stub-files;https://github.com/edreamleo/make-stub-files;{'totalCount': 20};{'totalCount': 3};3;False;{'totalCount': 0};{'totalCount': 0};2016-01-26T16:54:22Z;{'name': 'Python'}
+typed_ast;https://github.com/python/typed_ast;{'totalCount': 152};{'totalCount': 18};38;False;{'totalCount': 119};{'totalCount': 0};2016-02-16T22:40:09Z;{'name': 'C'}
+mypy-website;https://github.com/JukkaL/mypy-website;{'totalCount': 10};{'totalCount': 7};4;False;{'totalCount': 0};{'totalCount': 0};2016-03-11T16:02:25Z;{'name': 'HTML'}
+overload-sig;https://github.com/python/overload-sig;{'totalCount': 2};{'totalCount': 13};2;False;{'totalCount': 0};{'totalCount': 0};2016-08-17T14:22:49Z;
+com2ann;https://github.com/ilevkivskyi/com2ann;{'totalCount': 50};{'totalCount': 6};1;False;{'totalCount': 0};{'totalCount': 0};2016-09-09T07:17:02Z;{'name': 'Python'}
+gvanrossum.github.io;https://github.com/gvanrossum/gvanrossum.github.io;{'totalCount': 41};{'totalCount': 2};6;False;{'totalCount': 0};{'totalCount': 0};2016-09-09T22:54:11Z;{'name': 'HTML'}
+TatSu;https://github.com/neogeny/TatSu;{'totalCount': 147};{'totalCount': 13};34;False;{'totalCount': 1};{'totalCount': 13};2017-05-02T02:58:58Z;{'name': 'Python'}
+pythonlabs;https://github.com/gvanrossum/pythonlabs;{'totalCount': 16};{'totalCount': 2};0;False;{'totalCount': 0};{'totalCount': 0};2017-06-04T05:00:26Z;{'name': 'HTML'}
+mypy-dummy;https://github.com/gvanrossum/mypy-dummy;{'totalCount': 6};{'totalCount': 2};0;False;{'totalCount': 0};{'totalCount': 0};2017-08-31T16:42:53Z;{'name': 'Python'}
+pep550;https://github.com/gvanrossum/pep550;{'totalCount': 7};{'totalCount': 3};1;False;{'totalCount': 0};{'totalCount': 0};2017-09-05T21:59:49Z;{'name': 'Python'}
+mypy_mypyc-wheels;https://github.com/mypyc/mypy_mypyc-wheels;{'totalCount': 4};{'totalCount': 2};0;False;{'totalCount': 0};{'totalCount': 1157};2018-10-10T20:02:06Z;{'name': 'Shell'}
+mypy_extensions;https://github.com/python/mypy_extensions;{'totalCount': 68};{'totalCount': 13};12;False;{'totalCount': 0};{'totalCount': 0};2019-01-14T23:37:26Z;{'name': 'Python'}
+pygl;https://github.com/neogeny/pygl;{'totalCount': 3};{'totalCount': 2};0;False;{'totalCount': 0};{'totalCount': 0};2019-04-27T10:47:30Z;{'name': 'Python'}
+pegen;https://github.com/gvanrossum/pegen;{'totalCount': 149};{'totalCount': 18};19;False;{'totalCount': 2};{'totalCount': 0};2019-05-07T16:43:15Z;{'name': 'Python'}
+ctok;https://github.com/gvanrossum/ctok;{'totalCount': 51};{'totalCount': 3};5;False;{'totalCount': 0};{'totalCount': 0};2019-06-22T03:38:29Z;{'name': 'C'}
+test-581;https://github.com/willingc/test-581;{'totalCount': 2};{'totalCount': 2};0;False;{'totalCount': 0};{'totalCount': 0};2019-06-28T18:52:53Z;
+guidos_time_machine;https://github.com/gvanrossum/guidos_time_machine;{'totalCount': 51};{'totalCount': 12};2;False;{'totalCount': 0};{'totalCount': 0};2020-03-05T04:06:18Z;{'name': 'Python'}

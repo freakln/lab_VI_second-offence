@@ -7,7 +7,6 @@ names = []
 to_csv = []
 
 after = ''
-headers = {"Authorization": "token 324716e91612c5d9c98edc464cb4581c70a7bd86"}
 
 dado = ''
 cursor = ''
@@ -24,13 +23,13 @@ while have_next_page and page < 100:
     print(request.status_code)
     if request.status_code == 200:
         result = request.json()
+        print(result)
+        nodes += result['data']['user']['repositories']['nodes']
 
-        nodes += result['data']['search']['nodes']
-
-        have_next_page = result["data"]["search"]["pageInfo"]["hasNextPage"]
+        have_next_page = result["data"]["user"]['repositories']["pageInfo"]["hasNextPage"]
         page += 1
-        print(result["data"]["search"]["pageInfo"]["endCursor"])
-        after = ', after:"' + result["data"]["search"]["pageInfo"]["endCursor"]+'"'
+        print(result["data"]["user"]['repositories']["pageInfo"]["endCursor"])
+        after = ', after:"' + result["data"]["user"]['repositories']["pageInfo"]["endCursor"]+'"'
         mquery = query % after
 
 
@@ -42,7 +41,7 @@ for d in nodes:
         row.update({keys: d[keys]})
     to_csv.append(row)
 
-with open('resultado.csv', mode='w', encoding='utf-8', newline='') as csvfile:
+with open('resul_tado.csv', mode='w', encoding='utf-8', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=names, delimiter=';')
     writer.writeheader()
     for i in to_csv:

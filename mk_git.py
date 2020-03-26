@@ -1,16 +1,20 @@
-from git import Repo
-from radon import raw,metrics
 import os
+from git import Repo
+from radon.raw import analyze
+import pathlib
 import shutil
+import csv
+from teste import count_loc
+headers = ['name', 'url', 'stargazers', 'watchers', 'forkCount',
+           'isFork', 'commitComments', 'releases', 'createdAt', 'primaryLanguage']
 
-
-def clone_to_root(git_url, name):
-    Repo.clone_from(git_url, 'repos/' + name)
-
-
-# clone_to_root('https://github.com/gvanrossum/pegen','pegen')
-
-
-print(metrics.analyze('.main.py'))
-
-
+with open('resultado.csv', newline='') as csvfile:
+    spamreader = csv.DictReader(csvfile, fieldnames=headers, delimiter=';', quotechar='|')
+    for row in spamreader:
+        if row['url'] == 'url':
+            continue
+        try:
+            Repo.clone_from(row['url'],'repos/'+row['name'])
+            count_loc('repos/'+row['name'])
+        except:
+            raise
