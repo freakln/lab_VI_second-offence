@@ -9,6 +9,7 @@ query{
       }
                        nodes {
                                 ... on Repository {
+                                  owner{login}
                                   name
                                   url
                                   stargazers{totalCount}
